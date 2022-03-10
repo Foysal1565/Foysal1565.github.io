@@ -3,9 +3,6 @@ layout: about
 title: about
 permalink: /
 subtitle: Research Assistant, Institute for the Wireless Internet of Things Roux Institute 
-Department of Electrical and Computer Engineering,
-Northeastern University, Boston, MA, USA
-
 
 profile:
   align: right
