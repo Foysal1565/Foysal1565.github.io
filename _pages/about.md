@@ -2,7 +2,10 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: Research Assistant, Institute for the Wireless Internet of Things <br> Roux Institute <br>
+Department of Electrical and Computer Engineering, <br>
+Northeastern University, Boston, MA, USA
+
 
 profile:
   align: right
