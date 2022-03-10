@@ -2,7 +2,8 @@
 layout: about
 title: about
 permalink: /
-subtitle: Research Assistant, Institute for the Wireless Internet of Things Roux Institute 
+subtitle: Research Assistant, 
+Institute for the Wireless Internet of Things Roux Institute 
 
 profile:
   align: right
