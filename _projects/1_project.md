@@ -1,38 +1,37 @@
 ---
 layout: page
-title: Deep Learning to Detect COVID-19
+title: LoRa for V2X with Vehicles on the Move
 description:
-img: assets/img/covid_cnn.png
+img: assets/img/lora_v2x.png
 importance: 1
 category: work
 ---
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/covid_cnn2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/lora_v2x2.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Complete System Architecture for COVID-19 Detection with CNN
+    V2X LoRa architecture
 </div>
 
-Deep Learning has improved multi-fold in recent years and it has been playing a great role
-in image classification which also includes medical imaging. Convolutional Neural Networks (CNNs)
-have been performing well in detecting many diseases including coronary artery disease, malaria,
-Alzheimer’s disease, different dental diseases, and Parkinson’s disease. Like other cases, CNN has a
-substantial prospect in detecting COVID-19 patients with medical images like chest X-rays and CTs.
-Coronavirus or COVID-19 has been declared a global pandemic by the World Health Organization
-(WHO). As of 8 August 2020, the total COVID-19 confirmed cases are 19.18 M and deaths are 0.716 M
-worldwide. Detecting Coronavirus positive patients is very important in preventing the spread of
-this virus. On this conquest, a CNN model is proposed to detect COVID-19 patients from chest X-ray
-images. Two more CNN models with different number of convolution layers and three other models
-based on pretrained ResNet50, VGG-16 and VGG-19 are evaluated with comparative analytical
-analysis. All six models are trained and validated with Dataset 1 and Dataset 2. Dataset 1 has 201
-normal and 201 COVID-19 chest X-rays whereas Dataset 2 is comparatively larger with 659 normal
-and 295 COVID-19 chest X-ray images. The proposed model performs with an accuracy of 98.3% and
-a precision of 96.72% with Dataset 2. This model gives the Receiver Operating Characteristic (ROC)
-curve area of 0.983 and F1-score of 98.3 with Dataset 2. Moreover, this work shows a comparative
-analysis of how change in convolutional layers and increase in dataset affect classifying performances.
+The industrial development of the last few decades has prompted an increase in the
+number of vehicles by multiple folds. With the increased number of vehicles on the road, safety has
+become one of the primary concerns. Inter vehicular communication, specially Vehicle to Everything
+(V2X) communication can address these pressing issues including autonomous traffic systems and
+autonomous driving. The reliability and effectiveness of V2X communication greatly depends on
+communication architecture and the associated wireless technology. Addressing this challenge, a
+device-to-device (D2D)-based reliable, robust, and energy-efficient V2X communication architecture
+is proposed with LoRa wireless technology. The proposed system takes a D2D communication
+approach to reduce the latency by offering direct vehicle-to-vehicle (V2V) and vehicle-to-infrastructure
+(V2I) communication, rather than routing the data via the LoRa WAN server. Additionally, the
+proposed architecture offers modularity and compact design, making it ideal for legacy systems
+without requiring any additional hardware. Testing and analysis suggest the proposed system
+can communicate reliably with roadside infrastructures and other vehicles at speeds ranging from
+15–50 km per hour (kmph). The data packet consists of 12 bytes of metadata and 28 bytes of payload.
+At 15 kmph, a vehicle sends one data packet every 25.9 m, and at 50 kmph, it sends the same data
+packet every 53.34 m with reliable transitions.
 
 Please find the relevant <a href="https://github.com/Foysal1565/COVID-19-Detection-AI-MDPI">code repository and dataset here.</a>
 
