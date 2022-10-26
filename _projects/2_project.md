@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Deep Learning to Detect COVID-19
+title: <br> Deep Learning to Detect COVID-19
 description:
 img: assets/img/covid_cnn.png
 importance: 2
