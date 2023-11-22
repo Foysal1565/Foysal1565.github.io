@@ -426,3 +426,40 @@
   bibtex_show={true},
   selected={true},
   doi={10.1109/WoWMoM57956.2023.00019}}
+
+
+@inproceedings{10.1145/3615453.3616514,
+author = {Haque, Khandaker Foysal and Meneghello, Francesca and Restuccia, Francesco},
+title = {Wi-BFI: Extracting the IEEE 802.11 Beamforming Feedback Information from Commercial Wi-Fi Devices},
+abbr={WiNTECH},
+year = {2023},
+isbn = {9798400703409},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3615453.3616514},
+doi = {10.1145/3615453.3616514},
+abstract = {Recently, researchers have shown that the beamforming feedback angles (BFAs) used for Wi-Fi multiple-input multiple-output (MIMO) operations can be effectively leveraged as a proxy of the channel frequency response (CFR) for different purposes. Examples are passive human activity recognition and device fingerprinting. However, even though the BFAs report frames are sent in clear text, there is not yet a unified open-source tool to extract and decode the BFAs from the frames. To fill this gap, we developed Wi-BFI, the first tool that allows retrieving Wi-Fi BFAs and reconstructing the beamforming feedback information (BFI) -- a compressed representation of the CFR -- from the BFAs frames captured over the air. The tool supports BFAs extraction within both IEEE 802.11ac and 802.11ax networks operating on radio channels with 160/80/40/20 MHz bandwidth. Both multi-user and single-user MIMO feedback can be decoded through Wi-BFI. The tool supports real-time and offline extraction and storage of BFAs and BFI. The real-time mode also includes a visual representation of the channel state that continuously updates based on the collected data. Wi-BFI code is open source and the tool is also available as a pip package1.},
+booktitle = {Proceedings of the 17th ACM Workshop on Wireless Network Testbeds, Experimental Evaluation \& Characterization},
+pages = {104–111},
+numpages = {8},
+pdf={Wi-BFI.pdf},
+bibtex_show={true},
+selected={true},
+html={https://dl.acm.org/doi/10.1145/3615453.3616514},
+keywords = {beamforming, Wi-Fi, compressed beamforming feedback, multiple-input multiple-output (MIMO)},
+location = {Madrid, Spain},
+series = {WiNTECH '23}
+}
+
+@article{haque2023beamsense,
+  title={BeamSense: Rethinking Wireless Sensing with MU-MIMO Wi-Fi Beamforming Feedback},
+  abstract = {In this paper, we propose BeamSense, a completely novel approach to implement standard-compliant Wi-Fi sensing applications. Wi-Fi sensing enables game-changing applications in remote healthcare, home entertainment, and home surveillance, among others. However, existing work leverages the manual extraction of channel state information (CSI) from Wi-Fi chips to classify activities, which is not supported by the Wi-Fi standard and hence requires the usage of specialized equipment. On the contrary, BeamSense leverages the standard-compliant beamforming feedback information (BFI) to characterize the propagation environment. Conversely from CSI, the BFI (i) can be easily recorded without any firmware modification, and (ii) captures the multiple channels between the access point and the stations, thus providing much better sensitivity. BeamSense includes a novel cross-domain few-shot learning (FSL) algorithm to handle unseen environments and subjects with few additional data points. We evaluate BeamSense through an extensive data collection campaign with three subjects performing twenty different activities in three different environments. We show that our BFI-based approach achieves about 10% more accuracy when compared to CSI-based prior work, while our FSL strategy improves accuracy by up to 30% and 80% when compared with state-of-the-art cross-domain algorithms.},
+  author={Haque, Khandaker Foysal and Zhang, Milin and Meneghello, Francesca and Restuccia, Francesco},
+  journal={arXiv preprint arXiv:2303.09687},
+  abbr={arXiv},
+  pdf = {BeamSense.pdf},
+  bibtex_show={true},
+  selected={true},
+  html={https://arxiv.org/abs/2303.09687},
+  year={2023}
+}
