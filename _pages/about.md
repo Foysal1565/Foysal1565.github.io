@@ -6,7 +6,7 @@ subtitle: Research Assistant, <br> Institute for the Wireless Internet of Things
 
 profile:
   align: right
-  image: Foysal2.jpg
+  image: Foysal6.png
   address: >
 
 
