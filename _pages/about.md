@@ -10,7 +10,7 @@ profile:
   address: >
 
 
-news: false  # includes a list of news items
+news: true  # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
@@ -19,5 +19,7 @@ social: true  # includes social icons at the bottom of the page
 <br> 
 
 I am a Research Assistant (RA)  in professor Restuccia's lab at the <strong> <a class="news-title" href="https://www.northeastern.edu/wiot/">  Institute for the Wireless Internet of Things  </a> </strong>, Northeastern University.  I am currently pursuing my Ph.D. in Computer Engineering at NEU with a research focus on MU-MIMO, IEEE 802.11ax, IoT, Software Defined Radio, Machine Learning in Wireless Networking, Hardware accelerated ML, and  Embedded Systems. My research focus is on the intersection of wireless networking, embedded systems, and Machine Learning. This also includes vehicular communications and underwater wireless sensor networks. 
+
+
 
 
