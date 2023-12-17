@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  Wi-BFI
+title: <br> <br> Wi-BFI
 description:
 img: assets/img/Wi-BFI.png
 importance: 3
