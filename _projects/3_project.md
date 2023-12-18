@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wi-BFI: IEEE 802.11 Beamforming Feedback Extraction Tool
+title: Wi-BFI--IEEE 802.11 Beamforming Feedback Extraction Tool
 description:
 img: assets/img/Wi-BFI.png
 importance: 3
