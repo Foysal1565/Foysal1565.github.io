@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Wi-BFI--IEEE 802.11 Beamforming Feedback Extraction Tool
+title: IEEE 802.11 Beamforming Feedback Information Extraction Tool
 description:
 img: assets/img/Wi-BFI.png
 importance: 3
@@ -9,28 +9,13 @@ category: work
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/lora_v2x2.png" title="" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Wi-BFI.png" title="" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
     V2X LoRa architecture
 </div>
 
-The industrial development of the last few decades has prompted an increase in the
-number of vehicles by multiple folds. With the increased number of vehicles on the road, safety has
-become one of the primary concerns. Inter vehicular communication, specially Vehicle to Everything
-(V2X) communication can address these pressing issues including autonomous traffic systems and
-autonomous driving. The reliability and effectiveness of V2X communication greatly depends on
-communication architecture and the associated wireless technology. Addressing this challenge, a
-device-to-device (D2D)-based reliable, robust, and energy-efficient V2X communication architecture
-is proposed with LoRa wireless technology. The proposed system takes a D2D communication
-approach to reduce the latency by offering direct vehicle-to-vehicle (V2V) and vehicle-to-infrastructure
-(V2I) communication, rather than routing the data via the LoRa WAN server. Additionally, the
-proposed architecture offers modularity and compact design, making it ideal for legacy systems
-without requiring any additional hardware. Testing and analysis suggest the proposed system
-can communicate reliably with roadside infrastructures and other vehicles at speeds ranging from
-15–50 km per hour (kmph). The data packet consists of 12 bytes of metadata and 28 bytes of payload.
-At 15 kmph, a vehicle sends one data packet every 25.9 m, and at 50 kmph, it sends the same data
-packet every 53.34 m with reliable transitions.
+Recently, researchers have shown that the beamforming feedback angles (BFAs) used for Wi-Fi multiple-input multiple-output (MIMO) operations can be effectively leveraged as a proxy of the channel frequency response (CFR) for different purposes. Examples are passive human activity recognition and device fingerprinting. However, even though the BFAs report frames are sent in clear text, there is not yet a unified open-source tool to extract and decode the BFAs from the frames. To fill this gap, we developed Wi-BFI, the first tool that allows retrieving Wi-Fi BFAs and reconstructing the beamforming feedback information (BFI) – a compressed representation of the CFR – from the BFAs frames captured over the air. The tool supports BFAs extraction within both IEEE 802.11ac and 802.11ax networks operating on radio channels with 160/80/40/20 MHz bandwidth. Both multi-user and single-user MIMO feedback can be decoded through Wi-BFI. The tool supports real-time and offline extraction and storage of BFAs and BFI. The real-time mode also includes a visual representation of the channel state that continuously updates based on the collected data. Wi-BFI code is open source and the tool is also available as a pip package.
 
-Please find the relevant <a href="https://github.com/Foysal1565/COVID-19-Detection-AI-MDPI">code repository and dataset here.</a>
+Please find the <a href="https://github.com/kfoysalhaque/Wi-BFI">Wi-BFI tool here.</a>
